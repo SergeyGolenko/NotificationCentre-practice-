@@ -10,6 +10,16 @@ import UIKit
 
 class RegistrationViewController: UIViewController {
 
+    @IBOutlet weak var registrationTextField: UITextField!
+    
+    
+    
+    @IBAction func saveButton(_ sender: UIButton) {
+        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "newPassword"), object: self)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
