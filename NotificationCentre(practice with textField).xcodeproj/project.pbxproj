@@ -13,6 +13,8 @@
 		2CC623C8255D6AE600D11AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC623C6255D6AE600D11AC9 /* Main.storyboard */; };
 		2CC623CA255D6AE900D11AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC623C9255D6AE900D11AC9 /* Assets.xcassets */; };
 		2CC623CD255D6AE900D11AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC623CB255D6AE900D11AC9 /* LaunchScreen.storyboard */; };
+		2CC623D5255D6FF100D11AC9 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC623D4255D6FF100D11AC9 /* RegistrationViewController.swift */; };
+		2CC623D7255D701500D11AC9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC623D6255D701500D11AC9 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2CC623C9255D6AE900D11AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CC623CC255D6AE900D11AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CC623CE255D6AE900D11AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC623D4255D6FF100D11AC9 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		2CC623D6255D701500D11AC9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				2CC623C0255D6AE600D11AC9 /* AppDelegate.swift */,
 				2CC623C2255D6AE600D11AC9 /* SceneDelegate.swift */,
 				2CC623C4255D6AE600D11AC9 /* ViewController.swift */,
+				2CC623D4255D6FF100D11AC9 /* RegistrationViewController.swift */,
+				2CC623D6255D701500D11AC9 /* WelcomeViewController.swift */,
 				2CC623C6255D6AE600D11AC9 /* Main.storyboard */,
 				2CC623C9255D6AE900D11AC9 /* Assets.xcassets */,
 				2CC623CB255D6AE900D11AC9 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CC623C5255D6AE600D11AC9 /* ViewController.swift in Sources */,
+				2CC623D7255D701500D11AC9 /* WelcomeViewController.swift in Sources */,
 				2CC623C1255D6AE600D11AC9 /* AppDelegate.swift in Sources */,
+				2CC623D5255D6FF100D11AC9 /* RegistrationViewController.swift in Sources */,
 				2CC623C3255D6AE600D11AC9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.SergeyGolenko.MyLocationsApp.NotificationCentre-practice-with-textField-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.SergeyGolenko.MyLocationsApp.NotificationCentre-practice-with-textField-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
